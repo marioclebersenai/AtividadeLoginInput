@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="div-left"></div>
+        <div class="div-right">
+            <div class="div-right-conteudo">
+                <h1>Hey, We are glad you chose Quick learner</h1>
+                <div class="info">
+                    Let’s get Started
+                </div>
+
+                <div class="div-sociais">
+                    <a class="btn-social" href="#"><i class="fa fa-google"> Google</i></a>
+                    <a class="btn-social" href="#"><i class="fa fa-facebook-square"> Facebook</i></a>
+                </div>
+
+                OR
+
+                <form action="#">
+                    <label class="label-custom" for="nome">Nome</label>
+                    <br>
+                    <input class="input-texto" type="text" name="nome" id="nome">
+                    <br>
+                    <label class="label-custom" for="mobile">Mobile Number</label>
+                    <br>
+                    <input class="input-texto" type="tel" name="mobile" id="mobile">
+                    <br>
+                    <label class="label-custom" for="email">E-mail</label>
+                    <br>
+                    <input class="input-texto" type="email" name="email" id="email">
+                    <br>
+                    <label class="label-custom" for="password">Password</label>
+                    <br>
+                    <input class="input-texto" type="password" name="password" id="password">
+                    <br>
+                    <div class="chk-concordar">
+                        <input type="checkbox" name="concordar" id="concordar">
+                        <span>I Agree all Terms & Conditions</span>
+                    </div>
+                    <div class="receber-notificacoes">
+                        <span>Deseja receber notificações? </span>
+                        <input type="radio" name="notificacao" id="sim">
+                        <label for="sim">Sim</label>
+                        <input type="radio" name="notificacao" id="nao">
+                        <label for="sim">Não</label>
+                    </div>
+
+                    <input class="btn-sign" type="button" value="Sign up">
+                    
+                </form>
+                <p>Already have an account? <span class="log-in"><a href="#">Log In</a></span></p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
